@@ -1,0 +1,29 @@
+{
+  "name": "Novitas WebWorks",
+  "short_name": "Novitas",
+  "description": "Professional Web Design and Development Services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/img/logo/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-US",
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://novitaswebworks.in"
+    }
+  ],
+  "prefer_related_applications": true
+}
