@@ -2,7 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Set your email address where you want to receive emails.
-    $toEmail = "kimetsu119@gmail.com"; // Replace with your email address
+    $toEmail = "ambaskaryash@novitaswebworks.in"; // Replace with your email address
 
     // Retrieve and sanitize form data
     $name = sanitizeInput($_POST['name']);
