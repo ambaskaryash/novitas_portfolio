@@ -7,10 +7,12 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-    
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server:  ftp://13.126.6.187:21
+        server: ftp.novitaswebworks.in
         username: ftp_novitaswebworks_in
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.password }}
+        protocol: ftps
+        port: 21
