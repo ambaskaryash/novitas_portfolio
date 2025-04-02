@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server:  ftp://13.126.6.187:22
+        server:  ftp://13.126.6.187:21
         username: ftp_novitaswebworks_in
         password: ${{ secrets.ftp_password }}
